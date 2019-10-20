@@ -24,7 +24,7 @@ def find_greater_pair(src)
       if sub_arr[0] > sub_arr[1]
         new_arr.push(sub_arr[0])
       else
-        
+        new_arr.push(sub_arr[1])
       end
     end
     new_arr
