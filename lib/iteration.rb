@@ -9,7 +9,7 @@ def join_ingredients(src)
     
     new_arr = []
     src.each do |sub_arr|
-      new_arr << "I love #{src[0]} and #{src[1]} on my pizza"
+      new_arr << "I love #{sub_arr[0]} and #{sub_arr} on my pizza"
     end   
     new_arr 
   end
